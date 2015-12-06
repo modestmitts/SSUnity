@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 5edba218d4359584f8b01f29883d357b
+timeCreated: 1449169756
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: oozle_tongue
+    21300002: flathead_screwdriver
+    21300004: small_ship_radio
+    21300006: neutrino_disk
+    21300008: mysterious_vial
+    21300010: magnetic_boots
+    21300012: plasma_grenade
+    21300014: snaketooth_key_cracker
+    21300016: flechette_magazine
+    21300018: oil_can
+    21300020: Space Salvage Item Icons - Full Page_10
+    21300022: Space Salvage Item Icons - Full Page_11
+    21300024: Space Salvage Item Icons - Full Page_12
+    21300026: Space Salvage Item Icons - Full Page_13
+    21300028: Space Salvage Item Icons - Full Page_14
+    21300030: Space Salvage Item Icons - Full Page_15
+    21300032: Space Salvage Item Icons - Full Page_16
+    21300034: Space Salvage Item Icons - Full Page_17
+    21300036: Space Salvage Item Icons - Full Page_18
+    21300038: Space Salvage Item Icons - Full Page_19
+    21300040: Space Salvage Item Icons - Full Page_20
+    21300042: Space Salvage Item Icons - Full Page_21
+    21300044: Space Salvage Item Icons - Full Page_22
+    21300046: Space Salvage Item Icons - Full Page_23
+    21300048: Space Salvage Item Icons - Full Page_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: oozle_tongue
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1331
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flathead_screwdriver
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1331
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: small_ship_radio
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1331
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: neutrino_disk
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1331
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mysterious_vial
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1331
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: magnetic_boots
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 999
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: plasma_grenade
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 999
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snaketooth_key_cracker
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 999
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flechette_magazine
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 999
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oil_can
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 999
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &114592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 442628}
+  - 114: {fileID: 11420496}
+  - 114: {fileID: 11409038}
+  m_Layer: 0
+  m_Name: Bubble Shield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &442628
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a736401d66085f146b0a27173345855e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CastEffect: {fileID: 19801056, guid: b7fa57dbf8d2d524884103d290b0c1d6, type: 2}
+  Description: Forms a thin membrane of protective water around you.
+  Name: Bubble Shield
+  LevelRequirement: 0
+  Cost: 15
+  Type: 1
+  Element: 0
+  Strength: 13
+  Duration: 3
+  TargetsCaster: 1
+  StatusClass: 0
+  Lob: 0
+  Grav: 0
+  Speed: 10
+  Icon: {fileID: 21300000, guid: 8c5865e55aa639644bcd5606c2ea8c55, type: 3}
+  Sound: {fileID: 8300000, guid: ab10f7b467420a448b363372447b8c51, type: 3}
+--- !u!114 &11420496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc836b4e422c364683940b09388aa4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InvWidth: 1
+  InvHeight: 1
+  StackID: 0
+  MaxStack: 1
+  StackCount: 1
+  Icon: {fileID: 21300000, guid: 5e5486bf295efb642b6ffadad1623889, type: 3}
+  _Equipped: -1
+  _xInvPos: -1
+  _yInvPos: -1
+  _Container: {fileID: 0}
+  PreviousParent: {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlot+SlotTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnCanStore:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnCanEquip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventorySlotEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanRemove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnCanUnequip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventorySlotEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnStoreInInventory:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnRemoveFromInventory:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnEquip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventorySlotEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnUnequip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventorySlotEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnStoreInInventoryFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnEquipFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PGISlotItem+InventorySlotEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  FoldedEvents: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Description
+      value: Forms a thin membrane of protective water around you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Name
+      value: Bubble Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Cost
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Strength
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Element
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Duration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c5865e55aa639644bcd5606c2ea8c55,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: TargetsCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Sound
+      value: 
+      objectReference: {fileID: 8300000, guid: ab10f7b467420a448b363372447b8c51, type: 3}
+    - target: {fileID: 0}
+      propertyPath: CastEffect
+      value: 
+      objectReference: {fileID: 19801056, guid: b7fa57dbf8d2d524884103d290b0c1d6,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 114592}
+  m_IsPrefabParent: 1

@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 7540b2bc0eae7ff4cb0e2fca25d9992a
+timeCreated: 1449168868
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: oozle_tongue
+    21300002: flathead_screwdriver
+    21300004: small_ship_radio
+    21300006: neutrino_disk
+    21300008: mysterious_vial
+    21300010: mag_boots
+    21300012: plasma_grenade
+    21300014: snaketooth_key_cracker
+    21300016: flechette_magazine
+    21300018: oil_can
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: oozle_tongue
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 330
+        width: 263
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flathead_screwdriver
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 334
+        width: 256
+        height: 257
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: small_ship_radio
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 338
+        width: 251
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: neutrino_disk
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 334
+        width: 251
+        height: 258
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mysterious_vial
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 339
+        width: 248
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mag_boots
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 263
+        height: 258
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: plasma_grenade
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3
+        width: 255
+        height: 255
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snaketooth_key_cracker
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1
+        width: 253
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flechette_magazine
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 0
+        width: 253
+        height: 258
+      alignment: 9
+      pivot: {x: .490256131, y: .504871905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oil_can
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1
+        width: 244
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

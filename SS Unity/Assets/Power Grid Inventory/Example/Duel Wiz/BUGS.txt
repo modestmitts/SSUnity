@@ -1,0 +1,4 @@
+-Sometimes the the fight doesn't end when player is out of spells?
+-Sometimes spells in the player's inventory are dumped to the root of the scene when GameOver.
+-If the player is dragging a spell when the spellbook goes away (after gameover) then it will remain in the scene root. it returns when a drag operation 'fails' due to an invalid drop target.
+-If a player starts dragging their last spell before the 'Place Spell' window appears the battle-phase check will not see it and assume the player is out of spells.
