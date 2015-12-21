@@ -3,7 +3,12 @@ guid: f05e76bb4860642869ba8c6d7e50e554
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Bolt_bit_collider
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 3
