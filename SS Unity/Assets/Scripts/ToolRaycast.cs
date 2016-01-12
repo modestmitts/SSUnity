@@ -4,7 +4,7 @@ public class ToolRaycast : MonoBehaviour
 {
    // public Camera camera;
     public float toolReachDistance;
-    public GameObject wrench;
+    public GameObject ToolParent;
    
     //public float sightDistance; //Or whatever distance
     private engageWrench wrenchScript;
@@ -17,7 +17,7 @@ public class ToolRaycast : MonoBehaviour
     {
         engageTool = false;
         currentDistance = toolReachDistance;
-        wrenchScript = wrench.GetComponent(typeof(engageWrench)) as engageWrench;      
+        wrenchScript = ToolParent.GetComponent(typeof(engageWrench)) as engageWrench;      
     }
 
     void Update()
@@ -30,7 +30,7 @@ public class ToolRaycast : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, currentDistance) && (hit.collider.tag == "bolt"))
         {
-            if (/*(hit.collider.tag == "bolt") &&*/ (!engageTool))
+            if (!engageTool)
             {
                 wrenchScript.wrenchBolt(hit.collider.transform.gameObject, true);
                 engageTool = true;

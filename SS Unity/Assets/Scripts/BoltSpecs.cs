@@ -13,10 +13,14 @@ public class BoltSpecs : MonoBehaviour
     public float LoosePos; // Where the bolt starts
     public float TightPos; // The tight position
     public float Current; //Current z position
-    
+
+    private PartDetach pd;
+
+  //  boltstats = transform.parent.GetComponent(typeof(BoltSpecs)) as BoltSpecs;
 
     void Awake()
     {
+        pd = transform.parent.GetComponent(typeof(PartDetach)) as PartDetach;
         //All bolts (Fasteners) should start either completely loose, or all the way tight
         if (Loose)
         {
@@ -47,7 +51,11 @@ public class BoltSpecs : MonoBehaviour
             Current = this.transform.localPosition.y;
             Turned += turnSpeed;
             if ((Turned >= 360) || (Turned <= -360)) Turned = 0;
-            if (Current >= LoosePos) Loose = true;
+            if (Current >= LoosePos)
+            {
+                Loose = true;
+                if (pd) pd.DetachCheck();                
+            }
             else Loose = false;
         }       
     }
