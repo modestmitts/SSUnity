@@ -1907,5 +1907,10 @@ namespace PowerGridInventory
         }
 
         #endregion
+
+        internal void Drop()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

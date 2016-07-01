@@ -4,14 +4,18 @@ using PowerGridInventory;
 
 public class MyTrashcan : MonoBehaviour 
 {
+   
+    private Transform t;
+    private Vector3 playerPos;
     public void TrashItem(PGISlotItem item, PGIModel inv, PGISlot slot)
     {
-        //First, remove this item from the equipement slot
-        inv.Unequip(item);
+        playerPos = GameObject.Find("Player").transform.position;
+         t = item.gameObject.transform;
+         print("Player transform X: " + playerPos.x + " Y: " + playerPos.y);
+    
+        t.position = playerPos + Vector3.forward + Vector3.one;
 
-        //Next, trigger removal events on the item.
-        item.TriggerCanUnequipEvents(inv, slot);
-        item.TriggerRemoveEvents(inv);
+        inv.Drop(item);
     }
   
     

@@ -13,7 +13,6 @@ public class engageWrench : MonoBehaviour
     //Rotation(0, 90,  0)
     //Scale (0.0333, 0.0333, 0.0333)
 
-    public GameObject wrench;
     public float turnSpeed = 0.15f;
 
     // These positions are for attaching the wrench to the different faces on the bolt
@@ -25,7 +24,7 @@ public class engageWrench : MonoBehaviour
                                                 new Vector3(-3.15f, -1.0f, 1.00f) }; // Position5
 
 
-       private float[] wrenchTurn = new[] { 347.6f, 47.6f, 107.6f, 167.6f, 227.7f, 287.6f };
+    private float[] wrenchTurn = new[] { 347.6f, 47.6f, 107.6f, 167.6f, 227.7f, 287.6f };
     
     private Vector3 PlayerAdjust = new Vector3(0.36f, 0.301f, 0.762f); 
    
@@ -35,16 +34,58 @@ public class engageWrench : MonoBehaviour
     private bool ready = false;
     private BoltSpecs boltstats;
     private int currentPos;
+    private Rigidbody RB;
+    private PlayerRaycast PlRay;
+    /****
+     * wrenchEquipped
+     * This is called on the Event of the Wrench being Equipped via the Power Grid Inventory
+     * This positions the Wrench in relationship to the Player (parent), and calls PlayerRaycast to set
+     * inHand to Wrench.
+     */
 
-    public void wrenchBolt(GameObject newParent, bool work)
+    public void toolEquipped()
     {
+        // 
         
+        RB = this.GetComponent<Rigidbody>();
+             
+        PlRay = transform.parent.GetComponentInChildren<PlayerRaycast>();
+     
+
+        //boltstats = transform.parent.GetComponent(typeof(BoltSpecs)) as BoltSpecs;
+
+        Vector3 playerPos;
+        PlRay.SetinHand(3, this.gameObject);
+       
+        //playerPos = GameObject.Find("Player").transform.position;
+        playerPos = transform.parent.transform.position;
+        
+        RB.isKinematic = true;
+        this.transform.position = playerPos;
+
+        this.transform.localPosition = Vector3.zero;
+        this.transform.localPosition = PlayerAdjust;
+        //wrench.transform.localRotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        this.transform.localRotation = Quaternion.Euler(0.0f, 180.0f, 340.0f);
+       
+
+    }
+
+    /*  wrenchBolt
+     * This Function resides in the Wrench Tool. 
+     * When the Toolraycast strikes a Collider with a "hex" tag. This function is called, and the 
+     * Wrench Tool becomes a child of the bolt, and attaches itself to it. (Adjusted)
+     * While the function is "adjusted" if the player presses a mouse button, it will twist the bolt
+     * and wrench child it is supposed to. 
+     * If the player moves the ToolRaycast off the "Bolt" collider, the wrench snaps back to the person parent.
+   
+    ****************************************************************/
+    public void engageBolt(GameObject newParent, bool work)
+    {        
         if (work)
         {
             if (!adjusted)
             {
-
-
                 // Make the bolt the parent of the tool
                 transform.parent = newParent.transform;
                 // Move to the zero position relative to the bolt
@@ -57,7 +98,7 @@ public class engageWrench : MonoBehaviour
                 if (boltstats.Loose) currentPos = 1;
                 // Else set it to the Loose position (Position 1) (I might change this to Position 2 )
                 else currentPos = 0;
-                print("Current Position " + currentPos);
+                //print("Current Position " + currentPos);
                 // Rotate the tool in position relative to the bolt
                 this.transform.localRotation = Quaternion.Euler(0.0f, 0.0f, wrenchTurn[currentPos]);
                 // Move the tool in position relative to the bolt
@@ -118,7 +159,7 @@ public class engageWrench : MonoBehaviour
         int pos = Mathf.Abs((int)boltstats.Turned / 60);
         if (pos != currentPos)
         {            
-            Debug.Log("Current Position" + pos);
+            //Debug.Log("Current Position" + pos);
             this.transform.localRotation = Quaternion.Euler(0.0f, 0.0f, wrenchTurn[currentPos]);
             this.transform.localPosition = wrenchPosition[currentPos];
             currentPos = pos;
