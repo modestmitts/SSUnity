@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 094fe3f8462790548b4849ea97ee2050
+timeCreated: 1463678475
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Dashboard
+    100002: Lower Rear Door
+    100004: Nose Hatch
+    100006: Port Nacelle Front Hatch
+    100008: Port Nacelle Nose Hatch
+    100010: Port Nacelle Rear Hatch
+    100012: Port Side Hatch
+    100014: SB Side Hatch
+    100016: //RootNode
+    100018: Stbd Nacelle Front Hatch
+    100020: Stbd Nacelle Nose Hatch
+    100022: Stbd Nacelle Rear Hatch
+    100024: Upper Rear Door
+    400000: Dashboard
+    400002: Lower Rear Door
+    400004: Nose Hatch
+    400006: Port Nacelle Front Hatch
+    400008: Port Nacelle Nose Hatch
+    400010: Port Nacelle Rear Hatch
+    400012: Port Side Hatch
+    400014: SB Side Hatch
+    400016: //RootNode
+    400018: Stbd Nacelle Front Hatch
+    400020: Stbd Nacelle Nose Hatch
+    400022: Stbd Nacelle Rear Hatch
+    400024: Upper Rear Door
+    2300000: Dashboard
+    2300002: Lower Rear Door
+    2300004: Nose Hatch
+    2300006: Port Nacelle Front Hatch
+    2300008: Port Nacelle Nose Hatch
+    2300010: Port Nacelle Rear Hatch
+    2300012: Port Side Hatch
+    2300014: SB Side Hatch
+    2300016: Stbd Nacelle Front Hatch
+    2300018: Stbd Nacelle Nose Hatch
+    2300020: Stbd Nacelle Rear Hatch
+    2300022: Upper Rear Door
+    3300000: Dashboard
+    3300002: Lower Rear Door
+    3300004: Nose Hatch
+    3300006: Port Nacelle Front Hatch
+    3300008: Port Nacelle Nose Hatch
+    3300010: Port Nacelle Rear Hatch
+    3300012: Port Side Hatch
+    3300014: SB Side Hatch
+    3300016: Stbd Nacelle Front Hatch
+    3300018: Stbd Nacelle Nose Hatch
+    3300020: Stbd Nacelle Rear Hatch
+    3300022: Upper Rear Door
+    4300000: Stbd Nacelle Front Hatch
+    4300002: Dashboard
+    4300004: Port Nacelle Rear Hatch
+    4300006: Stbd Nacelle Rear Hatch
+    4300008: Port Nacelle Front Hatch
+    4300010: Port Nacelle Nose Hatch
+    4300012: Stbd Nacelle Nose Hatch
+    4300014: Nose Hatch
+    4300016: Port Side Hatch
+    4300018: SB Side Hatch
+    4300020: Upper Rear Door
+    4300022: Lower Rear Door
+    6400000: Dashboard
+    6400002: Lower Rear Door
+    6400004: Nose Hatch
+    6400006: Port Nacelle Front Hatch
+    6400008: Port Nacelle Nose Hatch
+    6400010: Port Nacelle Rear Hatch
+    6400012: Port Side Hatch
+    6400014: SB Side Hatch
+    6400016: Stbd Nacelle Front Hatch
+    6400018: Stbd Nacelle Nose Hatch
+    6400020: Stbd Nacelle Rear Hatch
+    6400022: Upper Rear Door
+    7400000: Upper Rear DoorAction
+    7400002: SB Side Hatch|Lower Rear DoorAction
+    7400004: SB Side Hatch|SB Side HatchAction
+    7400006: SB Side Hatch|Upper Rear DoorAction
+    7400008: Upper Rear Door|Lower Rear DoorAction
+    7400010: Upper Rear Door|SB Side HatchAction
+    7400012: Upper Rear Door|Upper Rear DoorAction
+    7400014: Lower Rear Door|Lower Rear DoorAction
+    7400016: Lower Rear Door|SB Side HatchAction
+    7400018: Lower Rear Door|Upper Rear DoorAction
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

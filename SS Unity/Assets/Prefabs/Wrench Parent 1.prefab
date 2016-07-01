@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &104028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 454854}
+  - 114: {fileID: 11436384}
+  - 114: {fileID: 11486720}
+  - 65: {fileID: 6504008}
+  - 114: {fileID: 11425808}
+  - 114: {fileID: 11481032}
+  m_Layer: 0
+  m_Name: Wrench Parent 1
+  m_TagString: Pickup Item
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &155838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 460334}
+  - 33: {fileID: 3339394}
+  - 23: {fileID: 2393624}
+  - 64: {fileID: 6481600}
+  - 95: {fileID: 9517652}
+  - 114: {fileID: 11450070}
+  - 114: {fileID: 11420818}
+  m_Layer: 0
+  m_Name: wrench L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454854
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104028}
+  m_LocalRotation: {x: -0.026192978, y: -0.7082306, z: -0.6930653, w: 0.13184807}
+  m_LocalPosition: {x: -2.561273, y: 0.010195181, z: 3.4996083}
+  m_LocalScale: {x: 0.49999988, y: 0.49999994, z: 0.4999999}
+  m_Children:
+  - {fileID: 460334}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &460334
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155838}
+  m_LocalRotation: {x: 0.0013870107, y: -0.042195793, z: -0.00088371435, w: 0.999108}
+  m_LocalPosition: {x: 0.004, y: 0, z: -0.021}
+  m_LocalScale: {x: 3.65, y: 3.65, z: 3.65}
+  m_Children: []
+  m_Father: {fileID: 454854}
+  m_RootOrder: 0
+--- !u!23 &2393624
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155838}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 22c9ed06dc1afd7439b2425dadcf3b0c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3339394
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155838}
+  m_Mesh: {fileID: 4300000, guid: 4c4859a9e210c2349b2f5f3e950fd620, type: 3}
+--- !u!64 &6481600
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 4c4859a9e210c2349b2f5f3e950fd620, type: 3}
+--- !u!65 &6504008
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.38265482, y: 1.837767, z: 0.08665542}
+  m_Center: {x: -0.03152262, y: -0.0067102406, z: -0.008567193}
+--- !u!95 &9517652
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155838}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 4c4859a9e210c2349b2f5f3e950fd620, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11420818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc836b4e422c364683940b09388aa4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconType: 0
+  Icon: {fileID: 21300000, guid: 2dd7f18824bd13d4daee96ef90dab6ff, type: 3}
+  Icon3D: {fileID: 0}
+  IconMaterial: {fileID: 0}
+  IconOrientation: {x: 0, y: 0, z: 0}
+  CellWidth: 1
+  CellHeight: 1
+  Highlight: {r: 0, g: 0, b: 0, a: 0}
+  StackID: 0
+  MaxStack: 1
+  StackCount: 1
+  References: []
+  _Equipped: -1
+  _xInvPos: -1
+  _yInvPos: -1
+  _Container: {fileID: 0}
+  PreviousParent: {fileID: 0}
+  _RotatedDir: 0
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlot+SlotTrigger, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanStore:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanEquip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnCanRemove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanUnequip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnStoreInInventory:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnRemoveFromInventory:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnEquip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnUnequip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnStoreInInventoryFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnEquipFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  FoldedEvents: 0
+--- !u!114 &11425808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fb948b4af61c044a2ec7ba06136871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultInventory: {fileID: 0}
+--- !u!114 &11436384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f37aab5f18e2e0448099abe4fcfb1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wrench: {fileID: 104028}
+  turnSpeed: 8
+--- !u!114 &11450070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040996eb6bcd8db4296946b9fcd492b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: tool
+--- !u!114 &11481032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc836b4e422c364683940b09388aa4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconType: 0
+  Icon: {fileID: 21300002, guid: b3f1021c929e1c4409a80c620b57503c, type: 3}
+  Icon3D: {fileID: 0}
+  IconMaterial: {fileID: 0}
+  IconOrientation: {x: 0, y: 0, z: 0}
+  CellWidth: 1
+  CellHeight: 2
+  Highlight: {r: 0, g: 0, b: 0, a: 0}
+  StackID: 0
+  MaxStack: 1
+  StackCount: 1
+  References: []
+  _Equipped: -1
+  _xInvPos: -1
+  _yInvPos: -1
+  _Container: {fileID: 0}
+  PreviousParent: {fileID: 0}
+  _RotatedDir: 0
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlot+SlotTrigger, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanStore:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanEquip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnCanRemove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanUnequip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnStoreInInventory:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 104028}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnRemoveFromInventory:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 104028}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnEquip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnUnequip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnStoreInInventoryFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnEquipFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  FoldedEvents: 1
+--- !u!114 &11486720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040996eb6bcd8db4296946b9fcd492b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: tool
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 104028}
+  m_IsPrefabParent: 1

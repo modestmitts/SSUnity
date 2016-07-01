@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &158656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 471430}
+  m_Layer: 0
+  m_Name: Philips Screwdriver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &161764
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 459524}
+  - 33: {fileID: 3357342}
+  - 23: {fileID: 2340270}
+  m_Layer: 0
+  m_Name: screw_driver_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &188812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 413414}
+  - 114: {fileID: 11406038}
+  - 114: {fileID: 11472136}
+  - 65: {fileID: 6529624}
+  - 114: {fileID: 11463450}
+  m_Layer: 0
+  m_Name: Philips_SD Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &188868
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 466652}
+  - 33: {fileID: 3341448}
+  - 23: {fileID: 2387520}
+  m_Layer: 0
+  m_Name: Shaft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188812}
+  m_LocalRotation: {x: -0.6975065, y: -0.07833756, z: 0.18457848, w: 0.6879526}
+  m_LocalPosition: {x: 0.534, y: -0.055, z: 0.902}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 471430}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &459524
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 15, y: 15, z: 15}
+  m_Children: []
+  m_Father: {fileID: 471430}
+  m_RootOrder: 0
+--- !u!4 &466652
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 15, y: 15, z: 15}
+  m_Children: []
+  m_Father: {fileID: 471430}
+  m_RootOrder: 1
+--- !u!4 &471430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 459524}
+  - {fileID: 466652}
+  m_Father: {fileID: 413414}
+  m_RootOrder: 0
+--- !u!23 &2340270
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161764}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 879c89e85e3f5c3449c6488c358b4a2f, type: 2}
+  - {fileID: 2100000, guid: ecf3224c69b376746871f4d9fde8ae71, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2387520
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188868}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2fbb0800932c350408cfbf6f432b6943, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3341448
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188868}
+  m_Mesh: {fileID: 4300002, guid: b4691d1a9aed46a4b94f58dc2100dcf0, type: 3}
+--- !u!33 &3357342
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161764}
+  m_Mesh: {fileID: 4300000, guid: b4691d1a9aed46a4b94f58dc2100dcf0, type: 3}
+--- !u!65 &6529624
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188812}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11406038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc836b4e422c364683940b09388aa4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconType: 0
+  Icon: {fileID: 21300000, guid: 48df2bdcb697f8f45aa64c5e5f9436d7, type: 3}
+  Icon3D: {fileID: 0}
+  IconMaterial: {fileID: 0}
+  IconOrientation: {x: 0, y: 0, z: 0}
+  CellWidth: 1
+  CellHeight: 1
+  Highlight: {r: 0, g: 0, b: 0, a: 0}
+  StackID: 0
+  MaxStack: 1
+  StackCount: 1
+  References: []
+  _Equipped: -1
+  _xInvPos: -1
+  _yInvPos: -1
+  _Container: {fileID: 0}
+  PreviousParent: {fileID: 0}
+  _RotatedDir: 0
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlot+SlotTrigger, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanStore:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanEquip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnCanRemove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCanUnequip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnStoreInInventory:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnRemoveFromInventory:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnEquip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnUnequip:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnStoreInInventoryFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventoryEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnEquipFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PowerGridInventory.PGISlotItem+InventorySlotEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  FoldedEvents: 0
+--- !u!114 &11463450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fb948b4af61c044a2ec7ba06136871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultInventory: {fileID: 0}
+--- !u!114 &11472136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040996eb6bcd8db4296946b9fcd492b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: tool
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 188812}
+  m_IsPrefabParent: 1

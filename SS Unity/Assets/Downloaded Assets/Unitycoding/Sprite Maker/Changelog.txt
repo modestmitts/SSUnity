@@ -1,0 +1,12 @@
+1.6 Hotfix
+- Baking without animation clips throw an error.
+
+1.6
+- Moved to subfolder Unitycoding
+- Frames were not captured in corect order.
+- Removed last frame for looping.
+
+1.5
+- Moved fully to editor.
+- Seperated Baker and Packer code
+- View list

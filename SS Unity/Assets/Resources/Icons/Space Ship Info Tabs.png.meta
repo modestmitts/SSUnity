@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 5bfdb406b11184643b70b754d4fdfbbc
+timeCreated: 1466032526
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Airlocks
+    21300002: Energy
+    21300004: Engines
+    21300006: Internal Security
+    21300008: Comms
+    21300010: Dampers
+    21300012: Nav
+    21300014: Probes
+    21300016: Information
+    21300018: Space Ship Info Tabs_0
+    21300020: Space Ship Info Tabs_1
+    21300022: Space Ship Info Tabs_2
+    21300024: Space Ship Info Tabs_3
+    21300026: Space Ship Info Tabs_4
+    21300028: Space Ship Info Tabs_5
+    21300030: Space Ship Info Tabs_6
+    21300032: Space Ship Info Tabs_7
+    21300034: Space Ship Info Tabs_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Space Ship Info Tabs_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1860
+        width: 1445
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 186, y: 0, z: 171, w: 172}
+      outline:
+      - - {x: -719.2308, y: 94.03845}
+        - {x: -720.2308, y: 93.03845}
+        - {x: -720.2308, y: -93.96155}
+        - {x: 720.7692, y: -93.96155}
+        - {x: 720.7692, y: 93.03845}
+        - {x: 719.7692, y: 94.03845}
+    - name: Space Ship Info Tabs_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 1532
+        height: 1390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 426, y: 427, z: 401, w: 421}
+      outline:
+      - - {x: -763.52246, y: 694.47754}
+        - {x: -763.52246, y: -691.52246}
+        - {x: -762.52246, y: -692.52246}
+        - {x: 764.47754, y: -692.52246}
+        - {x: 765.47754, y: -691.52246}
+        - {x: 765.47754, y: 694.47754}
+    - name: Space Ship Info Tabs_0
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2462
+        width: 22
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Space Ship Info Tabs_3
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 999
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,695 @@
+fileFormatVersion: 2
+guid: d838438aaf5649447a408a2d57601d9c
+timeCreated: 1466218106
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Dashboard
+    100002: Floor
+    100004: Lower Rear Door
+    100006: Nose Hatch
+    100008: Port Nacelle Front Hatch
+    100010: Port Nacelle Nose Hatch
+    100012: Port Nacelle Rear Hatch
+    100014: Port Side Hatch
+    100016: //RootNode
+    100018: SB Side Hatch
+    100020: SB Side Hatch Ani
+    100022: Shuttle  Stbd Nacelle Ceiling
+    100024: Shuttle Aft Floor
+    100026: Shuttle Cabin Floor
+    100028: Shuttle Cabin Fore Bulkhead
+    100030: Shuttle Cabin Pt Strut
+    100032: Shuttle Cabin Stbd Strut
+    100034: 'Shuttle Ceiling '
+    100036: Shuttle Conning
+    100038: Shuttle Conning Aft Side
+    100040: Shuttle Conning Pt Side
+    100042: Shuttle Conning Stbd Side
+    100044: Shuttle Dash Back Wall
+    100046: Shuttle Fore Floor
+    100048: Shuttle Fore Pt Wall
+    100050: Shuttle Fore Stbd Wall
+    100052: Shuttle Front Window
+    100054: Shuttle Nose
+    100056: Shuttle Pt Aft Wall
+    100058: Shuttle Pt Bulkhead-Wing Attach
+    100060: Shuttle Pt Cabin Wall
+    100062: Shuttle Pt Cabinet Floor
+    100064: Shuttle Pt Cabinet Rear Wall
+    100066: Shuttle Pt Dash Base
+    100068: Shuttle Pt Nacelle Ceiling
+    100070: Shuttle Pt Nacelle Exhaust
+    100072: Shuttle Pt Nacelle Far Wall
+    100074: Shuttle Pt Nacelle Floor
+    100076: Shuttle Pt Nacelle Fore Hatch Back Wall
+    100078: Shuttle Pt Nacelle Fore Hatch Floor
+    100080: Shuttle Pt Nacelle Fore Hatch Left wall
+    100082: Shuttle PT Nacelle Fore Hatch Right Wall
+    100084: Shuttle Pt Nacelle Inner Wall
+    100086: Shuttle Pt Nacelle Nose
+    100088: Shuttle Pt Outer Cabinet Wall
+    100090: Shuttle Pt Rear Cabin Wall
+    100092: Shuttle Pt Top Shelf
+    100094: Shuttle Pt Window
+    100096: Shuttle Pt Wing
+    100098: Shuttle SB Bulkhead-Wing Attach
+    100100: Shuttle SB Cabin Wall
+    100102: Shuttle SB Cabinet Floor
+    100104: Shuttle SB Cabinet Rear Wall
+    100106: Shuttle SB Dash Base
+    100108: Shuttle SB Nacelle Exhaust
+    100110: Shuttle SB Nacelle Far Wall
+    100112: Shuttle SB Nacelle Floor
+    100114: Shuttle SB Nacelle Fore Hatch Back Wall
+    100116: Shuttle SB Nacelle Fore Hatch Floor
+    100118: Shuttle SB Nacelle Fore Hatch Left Wall
+    100120: Shuttle SB Nacelle Fore Hatch Right Wall
+    100122: Shuttle SB Nacelle Inner Wall
+    100124: Shuttle SB Nacelle Nose
+    100126: Shuttle SB Outer Cabinet Wall
+    100128: Shuttle SB Rear Cabin Wall
+    100130: Shuttle SB Rear Wall
+    100132: Shuttle SB Top Shelf
+    100134: Shuttle SB Window
+    100136: Shuttle SB Wing
+    100138: Stbd Nacelle Front Hatch
+    100140: Stbd Nacelle Nose Hatch
+    100142: Stbd Nacelle Rear Hatch
+    100144: Top Conning Hatch
+    100146: Upper Rear Door
+    400000: Dashboard
+    400002: Floor
+    400004: Lower Rear Door
+    400006: Nose Hatch
+    400008: Port Nacelle Front Hatch
+    400010: Port Nacelle Nose Hatch
+    400012: Port Nacelle Rear Hatch
+    400014: Port Side Hatch
+    400016: //RootNode
+    400018: SB Side Hatch
+    400020: SB Side Hatch Ani
+    400022: Shuttle  Stbd Nacelle Ceiling
+    400024: Shuttle Aft Floor
+    400026: Shuttle Cabin Floor
+    400028: Shuttle Cabin Fore Bulkhead
+    400030: Shuttle Cabin Pt Strut
+    400032: Shuttle Cabin Stbd Strut
+    400034: 'Shuttle Ceiling '
+    400036: Shuttle Conning
+    400038: Shuttle Conning Aft Side
+    400040: Shuttle Conning Pt Side
+    400042: Shuttle Conning Stbd Side
+    400044: Shuttle Dash Back Wall
+    400046: Shuttle Fore Floor
+    400048: Shuttle Fore Pt Wall
+    400050: Shuttle Fore Stbd Wall
+    400052: Shuttle Front Window
+    400054: Shuttle Nose
+    400056: Shuttle Pt Aft Wall
+    400058: Shuttle Pt Bulkhead-Wing Attach
+    400060: Shuttle Pt Cabin Wall
+    400062: Shuttle Pt Cabinet Floor
+    400064: Shuttle Pt Cabinet Rear Wall
+    400066: Shuttle Pt Dash Base
+    400068: Shuttle Pt Nacelle Ceiling
+    400070: Shuttle Pt Nacelle Exhaust
+    400072: Shuttle Pt Nacelle Far Wall
+    400074: Shuttle Pt Nacelle Floor
+    400076: Shuttle Pt Nacelle Fore Hatch Back Wall
+    400078: Shuttle Pt Nacelle Fore Hatch Floor
+    400080: Shuttle Pt Nacelle Fore Hatch Left wall
+    400082: Shuttle PT Nacelle Fore Hatch Right Wall
+    400084: Shuttle Pt Nacelle Inner Wall
+    400086: Shuttle Pt Nacelle Nose
+    400088: Shuttle Pt Outer Cabinet Wall
+    400090: Shuttle Pt Rear Cabin Wall
+    400092: Shuttle Pt Top Shelf
+    400094: Shuttle Pt Window
+    400096: Shuttle Pt Wing
+    400098: Shuttle SB Bulkhead-Wing Attach
+    400100: Shuttle SB Cabin Wall
+    400102: Shuttle SB Cabinet Floor
+    400104: Shuttle SB Cabinet Rear Wall
+    400106: Shuttle SB Dash Base
+    400108: Shuttle SB Nacelle Exhaust
+    400110: Shuttle SB Nacelle Far Wall
+    400112: Shuttle SB Nacelle Floor
+    400114: Shuttle SB Nacelle Fore Hatch Back Wall
+    400116: Shuttle SB Nacelle Fore Hatch Floor
+    400118: Shuttle SB Nacelle Fore Hatch Left Wall
+    400120: Shuttle SB Nacelle Fore Hatch Right Wall
+    400122: Shuttle SB Nacelle Inner Wall
+    400124: Shuttle SB Nacelle Nose
+    400126: Shuttle SB Outer Cabinet Wall
+    400128: Shuttle SB Rear Cabin Wall
+    400130: Shuttle SB Rear Wall
+    400132: Shuttle SB Top Shelf
+    400134: Shuttle SB Window
+    400136: Shuttle SB Wing
+    400138: Stbd Nacelle Front Hatch
+    400140: Stbd Nacelle Nose Hatch
+    400142: Stbd Nacelle Rear Hatch
+    400144: Top Conning Hatch
+    400146: Upper Rear Door
+    2300000: Dashboard
+    2300002: Floor
+    2300004: Lower Rear Door
+    2300006: Nose Hatch
+    2300008: Port Nacelle Front Hatch
+    2300010: Port Nacelle Nose Hatch
+    2300012: Port Nacelle Rear Hatch
+    2300014: Port Side Hatch
+    2300016: SB Side Hatch
+    2300018: SB Side Hatch Ani
+    2300020: Shuttle  Stbd Nacelle Ceiling
+    2300022: Shuttle Aft Floor
+    2300024: Shuttle Cabin Floor
+    2300026: Shuttle Cabin Fore Bulkhead
+    2300028: Shuttle Cabin Pt Strut
+    2300030: Shuttle Cabin Stbd Strut
+    2300032: 'Shuttle Ceiling '
+    2300034: Shuttle Conning
+    2300036: Shuttle Conning Aft Side
+    2300038: Shuttle Conning Pt Side
+    2300040: Shuttle Conning Stbd Side
+    2300042: Shuttle Dash Back Wall
+    2300044: Shuttle Fore Floor
+    2300046: Shuttle Fore Pt Wall
+    2300048: Shuttle Fore Stbd Wall
+    2300050: Shuttle Front Window
+    2300052: Shuttle Nose
+    2300054: Shuttle Pt Aft Wall
+    2300056: Shuttle Pt Bulkhead-Wing Attach
+    2300058: Shuttle Pt Cabin Wall
+    2300060: Shuttle Pt Cabinet Floor
+    2300062: Shuttle Pt Cabinet Rear Wall
+    2300064: Shuttle Pt Dash Base
+    2300066: Shuttle Pt Nacelle Ceiling
+    2300068: Shuttle Pt Nacelle Exhaust
+    2300070: Shuttle Pt Nacelle Far Wall
+    2300072: Shuttle Pt Nacelle Floor
+    2300074: Shuttle Pt Nacelle Fore Hatch Back Wall
+    2300076: Shuttle Pt Nacelle Fore Hatch Floor
+    2300078: Shuttle Pt Nacelle Fore Hatch Left wall
+    2300080: Shuttle PT Nacelle Fore Hatch Right Wall
+    2300082: Shuttle Pt Nacelle Inner Wall
+    2300084: Shuttle Pt Nacelle Nose
+    2300086: Shuttle Pt Outer Cabinet Wall
+    2300088: Shuttle Pt Rear Cabin Wall
+    2300090: Shuttle Pt Top Shelf
+    2300092: Shuttle Pt Window
+    2300094: Shuttle Pt Wing
+    2300096: Shuttle SB Bulkhead-Wing Attach
+    2300098: Shuttle SB Cabin Wall
+    2300100: Shuttle SB Cabinet Floor
+    2300102: Shuttle SB Cabinet Rear Wall
+    2300104: Shuttle SB Dash Base
+    2300106: Shuttle SB Nacelle Exhaust
+    2300108: Shuttle SB Nacelle Far Wall
+    2300110: Shuttle SB Nacelle Floor
+    2300112: Shuttle SB Nacelle Fore Hatch Back Wall
+    2300114: Shuttle SB Nacelle Fore Hatch Floor
+    2300116: Shuttle SB Nacelle Fore Hatch Left Wall
+    2300118: Shuttle SB Nacelle Fore Hatch Right Wall
+    2300120: Shuttle SB Nacelle Inner Wall
+    2300122: Shuttle SB Nacelle Nose
+    2300124: Shuttle SB Outer Cabinet Wall
+    2300126: Shuttle SB Rear Cabin Wall
+    2300128: Shuttle SB Rear Wall
+    2300130: Shuttle SB Top Shelf
+    2300132: Shuttle SB Window
+    2300134: Shuttle SB Wing
+    2300136: Stbd Nacelle Front Hatch
+    2300138: Stbd Nacelle Nose Hatch
+    2300140: Stbd Nacelle Rear Hatch
+    2300142: Top Conning Hatch
+    2300144: Upper Rear Door
+    3300000: Dashboard
+    3300002: Floor
+    3300004: Lower Rear Door
+    3300006: Nose Hatch
+    3300008: Port Nacelle Front Hatch
+    3300010: Port Nacelle Nose Hatch
+    3300012: Port Nacelle Rear Hatch
+    3300014: Port Side Hatch
+    3300016: SB Side Hatch
+    3300018: SB Side Hatch Ani
+    3300020: Shuttle  Stbd Nacelle Ceiling
+    3300022: Shuttle Aft Floor
+    3300024: Shuttle Cabin Floor
+    3300026: Shuttle Cabin Fore Bulkhead
+    3300028: Shuttle Cabin Pt Strut
+    3300030: Shuttle Cabin Stbd Strut
+    3300032: 'Shuttle Ceiling '
+    3300034: Shuttle Conning
+    3300036: Shuttle Conning Aft Side
+    3300038: Shuttle Conning Pt Side
+    3300040: Shuttle Conning Stbd Side
+    3300042: Shuttle Dash Back Wall
+    3300044: Shuttle Fore Floor
+    3300046: Shuttle Fore Pt Wall
+    3300048: Shuttle Fore Stbd Wall
+    3300050: Shuttle Front Window
+    3300052: Shuttle Nose
+    3300054: Shuttle Pt Aft Wall
+    3300056: Shuttle Pt Bulkhead-Wing Attach
+    3300058: Shuttle Pt Cabin Wall
+    3300060: Shuttle Pt Cabinet Floor
+    3300062: Shuttle Pt Cabinet Rear Wall
+    3300064: Shuttle Pt Dash Base
+    3300066: Shuttle Pt Nacelle Ceiling
+    3300068: Shuttle Pt Nacelle Exhaust
+    3300070: Shuttle Pt Nacelle Far Wall
+    3300072: Shuttle Pt Nacelle Floor
+    3300074: Shuttle Pt Nacelle Fore Hatch Back Wall
+    3300076: Shuttle Pt Nacelle Fore Hatch Floor
+    3300078: Shuttle Pt Nacelle Fore Hatch Left wall
+    3300080: Shuttle PT Nacelle Fore Hatch Right Wall
+    3300082: Shuttle Pt Nacelle Inner Wall
+    3300084: Shuttle Pt Nacelle Nose
+    3300086: Shuttle Pt Outer Cabinet Wall
+    3300088: Shuttle Pt Rear Cabin Wall
+    3300090: Shuttle Pt Top Shelf
+    3300092: Shuttle Pt Window
+    3300094: Shuttle Pt Wing
+    3300096: Shuttle SB Bulkhead-Wing Attach
+    3300098: Shuttle SB Cabin Wall
+    3300100: Shuttle SB Cabinet Floor
+    3300102: Shuttle SB Cabinet Rear Wall
+    3300104: Shuttle SB Dash Base
+    3300106: Shuttle SB Nacelle Exhaust
+    3300108: Shuttle SB Nacelle Far Wall
+    3300110: Shuttle SB Nacelle Floor
+    3300112: Shuttle SB Nacelle Fore Hatch Back Wall
+    3300114: Shuttle SB Nacelle Fore Hatch Floor
+    3300116: Shuttle SB Nacelle Fore Hatch Left Wall
+    3300118: Shuttle SB Nacelle Fore Hatch Right Wall
+    3300120: Shuttle SB Nacelle Inner Wall
+    3300122: Shuttle SB Nacelle Nose
+    3300124: Shuttle SB Outer Cabinet Wall
+    3300126: Shuttle SB Rear Cabin Wall
+    3300128: Shuttle SB Rear Wall
+    3300130: Shuttle SB Top Shelf
+    3300132: Shuttle SB Window
+    3300134: Shuttle SB Wing
+    3300136: Stbd Nacelle Front Hatch
+    3300138: Stbd Nacelle Nose Hatch
+    3300140: Stbd Nacelle Rear Hatch
+    3300142: Top Conning Hatch
+    3300144: Upper Rear Door
+    4300000: SB Side Hatch Ani
+    4300002: Shuttle Aft Floor
+    4300004: Shuttle SB Nacelle Fore Hatch Left Wall
+    4300006: Shuttle SB Nacelle Fore Hatch Right Wall
+    4300008: Shuttle SB Nacelle Nose
+    4300010: Shuttle Pt Nacelle Fore Hatch Floor
+    4300012: Shuttle PT Nacelle Fore Hatch Right Wall
+    4300014: Shuttle SB Nacelle Fore Hatch Floor
+    4300016: Shuttle SB Nacelle Fore Hatch Back Wall
+    4300018: Shuttle Pt Nacelle Nose
+    4300020: Shuttle Pt Nacelle Fore Hatch Left wall
+    4300022: Shuttle Pt Nacelle Inner Wall
+    4300024: Shuttle SB Nacelle Inner Wall
+    4300026: Shuttle Pt Nacelle Exhaust
+    4300028: Shuttle SB Nacelle Exhaust
+    4300030: Shuttle SB Nacelle Far Wall
+    4300032: Shuttle Pt Nacelle Far Wall
+    4300034: Shuttle  Stbd Nacelle Ceiling
+    4300036: Shuttle Pt Nacelle Ceiling
+    4300038: Shuttle SB Nacelle Floor
+    4300040: Shuttle Pt Nacelle Floor
+    4300042: Shuttle SB Wing
+    4300044: Shuttle SB Top Shelf
+    4300046: Shuttle SB Rear Wall
+    4300048: Shuttle SB Rear Cabin Wall
+    4300050: Shuttle SB Outer Cabinet Wall
+    4300052: Shuttle SB Cabinet Floor
+    4300054: Shuttle SB Bulkhead-Wing Attach
+    4300056: Shuttle SB Cabinet Rear Wall
+    4300058: Shuttle Pt Top Shelf
+    4300060: Shuttle Pt Rear Cabin Wall
+    4300062: Shuttle Pt Outer Cabinet Wall
+    4300064: Shuttle Pt Cabinet Rear Wall
+    4300066: Shuttle Pt Cabinet Floor
+    4300068: Shuttle Pt Bulkhead-Wing Attach
+    4300070: Shuttle Pt Aft Wall
+    4300072: Shuttle Cabin Floor
+    4300074: Shuttle Cabin Fore Bulkhead
+    4300076: Shuttle Cabin Pt Strut
+    4300078: Shuttle Cabin Stbd Strut
+    4300080: 'Shuttle Ceiling '
+    4300082: Shuttle Conning
+    4300084: Shuttle Conning Aft Side
+    4300086: Shuttle Conning Pt Side
+    4300088: Shuttle Conning Stbd Side
+    4300090: Shuttle Dash Back Wall
+    4300092: Shuttle Fore Floor
+    4300094: Shuttle Fore Pt Wall
+    4300096: Shuttle Fore Stbd Wall
+    4300098: Shuttle Nose
+    4300100: Shuttle Pt Cabin Wall
+    4300102: Shuttle Pt Dash Base
+    4300104: Shuttle Pt Wing
+    4300106: Shuttle SB Cabin Wall
+    4300108: Shuttle SB Dash Base
+    4300110: Shuttle Pt Window
+    4300112: Shuttle Front Window
+    4300114: Shuttle SB Window
+    4300116: Shuttle Pt Nacelle Fore Hatch Back Wall
+    4300118: Dashboard
+    4300120: Stbd Nacelle Front Hatch
+    4300122: Port Nacelle Rear Hatch
+    4300124: Stbd Nacelle Rear Hatch
+    4300126: Port Nacelle Front Hatch
+    4300128: Port Nacelle Nose Hatch
+    4300130: Stbd Nacelle Nose Hatch
+    4300132: Nose Hatch
+    4300134: Top Conning Hatch
+    4300136: Port Side Hatch
+    4300138: SB Side Hatch
+    4300140: Upper Rear Door
+    4300142: Lower Rear Door
+    4300144: Floor
+    6400000: Dashboard
+    6400002: Floor
+    6400004: Lower Rear Door
+    6400006: Nose Hatch
+    6400008: Port Nacelle Front Hatch
+    6400010: Port Nacelle Nose Hatch
+    6400012: Port Nacelle Rear Hatch
+    6400014: Port Side Hatch
+    6400016: SB Side Hatch
+    6400018: SB Side Hatch Ani
+    6400020: Shuttle  Stbd Nacelle Ceiling
+    6400022: Shuttle Aft Floor
+    6400024: Shuttle Cabin Floor
+    6400026: Shuttle Cabin Fore Bulkhead
+    6400028: Shuttle Cabin Pt Strut
+    6400030: Shuttle Cabin Stbd Strut
+    6400032: 'Shuttle Ceiling '
+    6400034: Shuttle Conning
+    6400036: Shuttle Conning Aft Side
+    6400038: Shuttle Conning Pt Side
+    6400040: Shuttle Conning Stbd Side
+    6400042: Shuttle Dash Back Wall
+    6400044: Shuttle Fore Floor
+    6400046: Shuttle Fore Pt Wall
+    6400048: Shuttle Fore Stbd Wall
+    6400050: Shuttle Front Window
+    6400052: Shuttle Nose
+    6400054: Shuttle Pt Aft Wall
+    6400056: Shuttle Pt Bulkhead-Wing Attach
+    6400058: Shuttle Pt Cabin Wall
+    6400060: Shuttle Pt Cabinet Floor
+    6400062: Shuttle Pt Cabinet Rear Wall
+    6400064: Shuttle Pt Dash Base
+    6400066: Shuttle Pt Nacelle Ceiling
+    6400068: Shuttle Pt Nacelle Exhaust
+    6400070: Shuttle Pt Nacelle Far Wall
+    6400072: Shuttle Pt Nacelle Floor
+    6400074: Shuttle Pt Nacelle Fore Hatch Back Wall
+    6400076: Shuttle Pt Nacelle Fore Hatch Floor
+    6400078: Shuttle Pt Nacelle Fore Hatch Left wall
+    6400080: Shuttle PT Nacelle Fore Hatch Right Wall
+    6400082: Shuttle Pt Nacelle Inner Wall
+    6400084: Shuttle Pt Nacelle Nose
+    6400086: Shuttle Pt Outer Cabinet Wall
+    6400088: Shuttle Pt Rear Cabin Wall
+    6400090: Shuttle Pt Top Shelf
+    6400092: Shuttle Pt Window
+    6400094: Shuttle Pt Wing
+    6400096: Shuttle SB Bulkhead-Wing Attach
+    6400098: Shuttle SB Cabin Wall
+    6400100: Shuttle SB Cabinet Floor
+    6400102: Shuttle SB Cabinet Rear Wall
+    6400104: Shuttle SB Dash Base
+    6400106: Shuttle SB Nacelle Exhaust
+    6400108: Shuttle SB Nacelle Far Wall
+    6400110: Shuttle SB Nacelle Floor
+    6400112: Shuttle SB Nacelle Fore Hatch Back Wall
+    6400114: Shuttle SB Nacelle Fore Hatch Floor
+    6400116: Shuttle SB Nacelle Fore Hatch Left Wall
+    6400118: Shuttle SB Nacelle Fore Hatch Right Wall
+    6400120: Shuttle SB Nacelle Inner Wall
+    6400122: Shuttle SB Nacelle Nose
+    6400124: Shuttle SB Outer Cabinet Wall
+    6400126: Shuttle SB Rear Cabin Wall
+    6400128: Shuttle SB Rear Wall
+    6400130: Shuttle SB Top Shelf
+    6400132: Shuttle SB Window
+    6400134: Shuttle SB Wing
+    6400136: Stbd Nacelle Front Hatch
+    6400138: Stbd Nacelle Nose Hatch
+    6400140: Stbd Nacelle Rear Hatch
+    6400142: Top Conning Hatch
+    6400144: Upper Rear Door
+    7400000: Upper Rear DoorAction
+    7400002: SB Side Hatch Ani|Lower Rear DoorAction
+    7400004: SB Side Hatch Ani|Nose HatchAction
+    7400006: SB Side Hatch Ani|Port Nacelle Front HatchAction
+    7400008: SB Side Hatch Ani|Port Nacelle Nose HatchAction
+    7400010: SB Side Hatch Ani|Port Nacelle Rear HatchAction
+    7400012: SB Side Hatch Ani|Port Side HatchAction
+    7400014: SB Side Hatch Ani|SB Side HatchAction
+    7400016: SB Side Hatch Ani|SB Side HatchAction.001
+    7400018: SB Side Hatch Ani|Stbd Nacelle Front HatchAction
+    7400020: SB Side Hatch Ani|Stbd Nacelle Nose HatchAction
+    7400022: SB Side Hatch Ani|Stbd Nacelle Rear HatchAction
+    7400024: SB Side Hatch Ani|Top Conning HatchAction
+    7400026: SB Side Hatch Ani|Upper Rear DoorAction
+    7400028: SB Side Hatch Ani|Upper Rear DoorAction.001
+    7400030: Stbd Nacelle Front Hatch|Lower Rear DoorAction
+    7400032: Stbd Nacelle Front Hatch|Nose HatchAction
+    7400034: Stbd Nacelle Front Hatch|Port Nacelle Front HatchAction
+    7400036: Stbd Nacelle Front Hatch|Port Nacelle Nose HatchAction
+    7400038: Stbd Nacelle Front Hatch|Port Nacelle Rear HatchAction
+    7400040: Stbd Nacelle Front Hatch|Port Side HatchAction
+    7400042: Stbd Nacelle Front Hatch|SB Side HatchAction
+    7400044: Stbd Nacelle Front Hatch|SB Side HatchAction.001
+    7400046: Stbd Nacelle Front Hatch|Stbd Nacelle Front HatchAction
+    7400048: Stbd Nacelle Front Hatch|Stbd Nacelle Nose HatchAction
+    7400050: Stbd Nacelle Front Hatch|Stbd Nacelle Rear HatchAction
+    7400052: Stbd Nacelle Front Hatch|Top Conning HatchAction
+    7400054: Stbd Nacelle Front Hatch|Upper Rear DoorAction
+    7400056: Stbd Nacelle Front Hatch|Upper Rear DoorAction.001
+    7400058: Port Nacelle Rear Hatch|Lower Rear DoorAction
+    7400060: Port Nacelle Rear Hatch|Nose HatchAction
+    7400062: Port Nacelle Rear Hatch|Port Nacelle Front HatchAction
+    7400064: Port Nacelle Rear Hatch|Port Nacelle Nose HatchAction
+    7400066: Port Nacelle Rear Hatch|Port Nacelle Rear HatchAction
+    7400068: Port Nacelle Rear Hatch|Port Side HatchAction
+    7400070: Port Nacelle Rear Hatch|SB Side HatchAction
+    7400072: Port Nacelle Rear Hatch|SB Side HatchAction.001
+    7400074: Port Nacelle Rear Hatch|Stbd Nacelle Front HatchAction
+    7400076: Port Nacelle Rear Hatch|Stbd Nacelle Nose HatchAction
+    7400078: Port Nacelle Rear Hatch|Stbd Nacelle Rear HatchAction
+    7400080: Port Nacelle Rear Hatch|Top Conning HatchAction
+    7400082: Port Nacelle Rear Hatch|Upper Rear DoorAction
+    7400084: Port Nacelle Rear Hatch|Upper Rear DoorAction.001
+    7400086: Stbd Nacelle Rear Hatch|Lower Rear DoorAction
+    7400088: Stbd Nacelle Rear Hatch|Nose HatchAction
+    7400090: Stbd Nacelle Rear Hatch|Port Nacelle Front HatchAction
+    7400092: Stbd Nacelle Rear Hatch|Port Nacelle Nose HatchAction
+    7400094: Stbd Nacelle Rear Hatch|Port Nacelle Rear HatchAction
+    7400096: Stbd Nacelle Rear Hatch|Port Side HatchAction
+    7400098: Stbd Nacelle Rear Hatch|SB Side HatchAction
+    7400100: Stbd Nacelle Rear Hatch|SB Side HatchAction.001
+    7400102: Stbd Nacelle Rear Hatch|Stbd Nacelle Front HatchAction
+    7400104: Stbd Nacelle Rear Hatch|Stbd Nacelle Nose HatchAction
+    7400106: Stbd Nacelle Rear Hatch|Stbd Nacelle Rear HatchAction
+    7400108: Stbd Nacelle Rear Hatch|Top Conning HatchAction
+    7400110: Stbd Nacelle Rear Hatch|Upper Rear DoorAction
+    7400112: Stbd Nacelle Rear Hatch|Upper Rear DoorAction.001
+    7400114: Port Nacelle Front Hatch|Lower Rear DoorAction
+    7400116: Port Nacelle Front Hatch|Nose HatchAction
+    7400118: Port Nacelle Front Hatch|Port Nacelle Front HatchAction
+    7400120: Port Nacelle Front Hatch|Port Nacelle Nose HatchAction
+    7400122: Port Nacelle Front Hatch|Port Nacelle Rear HatchAction
+    7400124: Port Nacelle Front Hatch|Port Side HatchAction
+    7400126: Port Nacelle Front Hatch|SB Side HatchAction
+    7400128: Port Nacelle Front Hatch|SB Side HatchAction.001
+    7400130: Port Nacelle Front Hatch|Stbd Nacelle Front HatchAction
+    7400132: Port Nacelle Front Hatch|Stbd Nacelle Nose HatchAction
+    7400134: Port Nacelle Front Hatch|Stbd Nacelle Rear HatchAction
+    7400136: Port Nacelle Front Hatch|Top Conning HatchAction
+    7400138: Port Nacelle Front Hatch|Upper Rear DoorAction
+    7400140: Port Nacelle Front Hatch|Upper Rear DoorAction.001
+    7400142: Port Nacelle Nose Hatch|Lower Rear DoorAction
+    7400144: Port Nacelle Nose Hatch|Nose HatchAction
+    7400146: Port Nacelle Nose Hatch|Port Nacelle Front HatchAction
+    7400148: Port Nacelle Nose Hatch|Port Nacelle Nose HatchAction
+    7400150: Port Nacelle Nose Hatch|Port Nacelle Rear HatchAction
+    7400152: Port Nacelle Nose Hatch|Port Side HatchAction
+    7400154: Port Nacelle Nose Hatch|SB Side HatchAction
+    7400156: Port Nacelle Nose Hatch|SB Side HatchAction.001
+    7400158: Port Nacelle Nose Hatch|Stbd Nacelle Front HatchAction
+    7400160: Port Nacelle Nose Hatch|Stbd Nacelle Nose HatchAction
+    7400162: Port Nacelle Nose Hatch|Stbd Nacelle Rear HatchAction
+    7400164: Port Nacelle Nose Hatch|Top Conning HatchAction
+    7400166: Port Nacelle Nose Hatch|Upper Rear DoorAction
+    7400168: Port Nacelle Nose Hatch|Upper Rear DoorAction.001
+    7400170: Stbd Nacelle Nose Hatch|Lower Rear DoorAction
+    7400172: Stbd Nacelle Nose Hatch|Nose HatchAction
+    7400174: Stbd Nacelle Nose Hatch|Port Nacelle Front HatchAction
+    7400176: Stbd Nacelle Nose Hatch|Port Nacelle Nose HatchAction
+    7400178: Stbd Nacelle Nose Hatch|Port Nacelle Rear HatchAction
+    7400180: Stbd Nacelle Nose Hatch|Port Side HatchAction
+    7400182: Stbd Nacelle Nose Hatch|SB Side HatchAction
+    7400184: Stbd Nacelle Nose Hatch|SB Side HatchAction.001
+    7400186: Stbd Nacelle Nose Hatch|Stbd Nacelle Front HatchAction
+    7400188: Stbd Nacelle Nose Hatch|Stbd Nacelle Nose HatchAction
+    7400190: Stbd Nacelle Nose Hatch|Stbd Nacelle Rear HatchAction
+    7400192: Stbd Nacelle Nose Hatch|Top Conning HatchAction
+    7400194: Stbd Nacelle Nose Hatch|Upper Rear DoorAction
+    7400196: Stbd Nacelle Nose Hatch|Upper Rear DoorAction.001
+    7400198: Nose Hatch|Lower Rear DoorAction
+    7400200: Nose Hatch|Nose HatchAction
+    7400202: Nose Hatch|Port Nacelle Front HatchAction
+    7400204: Nose Hatch|Port Nacelle Nose HatchAction
+    7400206: Nose Hatch|Port Nacelle Rear HatchAction
+    7400208: Nose Hatch|Port Side HatchAction
+    7400210: Nose Hatch|SB Side HatchAction
+    7400212: Nose Hatch|SB Side HatchAction.001
+    7400214: Nose Hatch|Stbd Nacelle Front HatchAction
+    7400216: Nose Hatch|Stbd Nacelle Nose HatchAction
+    7400218: Nose Hatch|Stbd Nacelle Rear HatchAction
+    7400220: Nose Hatch|Top Conning HatchAction
+    7400222: Nose Hatch|Upper Rear DoorAction
+    7400224: Nose Hatch|Upper Rear DoorAction.001
+    7400226: Top Conning Hatch|Lower Rear DoorAction
+    7400228: Top Conning Hatch|Nose HatchAction
+    7400230: Top Conning Hatch|Port Nacelle Front HatchAction
+    7400232: Top Conning Hatch|Port Nacelle Nose HatchAction
+    7400234: Top Conning Hatch|Port Nacelle Rear HatchAction
+    7400236: Top Conning Hatch|Port Side HatchAction
+    7400238: Top Conning Hatch|SB Side HatchAction
+    7400240: Top Conning Hatch|SB Side HatchAction.001
+    7400242: Top Conning Hatch|Stbd Nacelle Front HatchAction
+    7400244: Top Conning Hatch|Stbd Nacelle Nose HatchAction
+    7400246: Top Conning Hatch|Stbd Nacelle Rear HatchAction
+    7400248: Top Conning Hatch|Top Conning HatchAction
+    7400250: Top Conning Hatch|Upper Rear DoorAction
+    7400252: Top Conning Hatch|Upper Rear DoorAction.001
+    7400254: Port Side Hatch|Lower Rear DoorAction
+    7400256: Port Side Hatch|Nose HatchAction
+    7400258: Port Side Hatch|Port Nacelle Front HatchAction
+    7400260: Port Side Hatch|Port Nacelle Nose HatchAction
+    7400262: Port Side Hatch|Port Nacelle Rear HatchAction
+    7400264: Port Side Hatch|Port Side HatchAction
+    7400266: Port Side Hatch|SB Side HatchAction
+    7400268: Port Side Hatch|SB Side HatchAction.001
+    7400270: Port Side Hatch|Stbd Nacelle Front HatchAction
+    7400272: Port Side Hatch|Stbd Nacelle Nose HatchAction
+    7400274: Port Side Hatch|Stbd Nacelle Rear HatchAction
+    7400276: Port Side Hatch|Top Conning HatchAction
+    7400278: Port Side Hatch|Upper Rear DoorAction
+    7400280: Port Side Hatch|Upper Rear DoorAction.001
+    7400282: SB Side Hatch|Lower Rear DoorAction
+    7400284: SB Side Hatch|Nose HatchAction
+    7400286: SB Side Hatch|Port Nacelle Front HatchAction
+    7400288: SB Side Hatch|Port Nacelle Nose HatchAction
+    7400290: SB Side Hatch|Port Nacelle Rear HatchAction
+    7400292: SB Side Hatch|Port Side HatchAction
+    7400294: SB Side Hatch|SB Side HatchAction
+    7400296: SB Side Hatch|SB Side HatchAction.001
+    7400298: SB Side Hatch|Stbd Nacelle Front HatchAction
+    7400300: SB Side Hatch|Stbd Nacelle Nose HatchAction
+    7400302: SB Side Hatch|Stbd Nacelle Rear HatchAction
+    7400304: SB Side Hatch|Top Conning HatchAction
+    7400306: SB Side Hatch|Upper Rear DoorAction
+    7400308: SB Side Hatch|Upper Rear DoorAction.001
+    7400310: Upper Rear Door|Lower Rear DoorAction
+    7400312: Upper Rear Door|Nose HatchAction
+    7400314: Upper Rear Door|Port Nacelle Front HatchAction
+    7400316: Upper Rear Door|Port Nacelle Nose HatchAction
+    7400318: Upper Rear Door|Port Nacelle Rear HatchAction
+    7400320: Upper Rear Door|Port Side HatchAction
+    7400322: Upper Rear Door|SB Side HatchAction
+    7400324: Upper Rear Door|SB Side HatchAction.001
+    7400326: Upper Rear Door|Stbd Nacelle Front HatchAction
+    7400328: Upper Rear Door|Stbd Nacelle Nose HatchAction
+    7400330: Upper Rear Door|Stbd Nacelle Rear HatchAction
+    7400332: Upper Rear Door|Top Conning HatchAction
+    7400334: Upper Rear Door|Upper Rear DoorAction
+    7400336: Upper Rear Door|Upper Rear DoorAction.001
+    7400338: Lower Rear Door|Lower Rear DoorAction
+    7400340: Lower Rear Door|Nose HatchAction
+    7400342: Lower Rear Door|Port Nacelle Front HatchAction
+    7400344: Lower Rear Door|Port Nacelle Nose HatchAction
+    7400346: Lower Rear Door|Port Nacelle Rear HatchAction
+    7400348: Lower Rear Door|Port Side HatchAction
+    7400350: Lower Rear Door|SB Side HatchAction
+    7400352: Lower Rear Door|SB Side HatchAction.001
+    7400354: Lower Rear Door|Stbd Nacelle Front HatchAction
+    7400356: Lower Rear Door|Stbd Nacelle Nose HatchAction
+    7400358: Lower Rear Door|Stbd Nacelle Rear HatchAction
+    7400360: Lower Rear Door|Top Conning HatchAction
+    7400362: Lower Rear Door|Upper Rear DoorAction
+    7400364: Lower Rear Door|Upper Rear DoorAction.001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
