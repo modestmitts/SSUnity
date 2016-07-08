@@ -4,7 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Pickup Item
+  - New Tag
+  - hex
+  - philips
+  - flathead
   - bolt
+  - panel1
+  - Access_Icon
+  - panel2
   layers:
   - Default
   - TransparentFX
