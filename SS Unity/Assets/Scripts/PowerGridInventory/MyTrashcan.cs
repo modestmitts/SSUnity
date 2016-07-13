@@ -10,9 +10,7 @@ public class MyTrashcan : MonoBehaviour
     public void TrashItem(PGISlotItem item, PGIModel inv, PGISlot slot)
     {
         playerPos = GameObject.Find("Player").transform.position;
-         t = item.gameObject.transform;
-         print("Player transform X: " + playerPos.x + " Y: " + playerPos.y);
-    
+         t = item.gameObject.transform;    
         t.position = playerPos + Vector3.forward + Vector3.one;
 
         inv.Drop(item);

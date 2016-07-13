@@ -58,7 +58,13 @@ public class PlayerRaycast : MonoBehaviour
                 // Click on a Door or Panel 
                 if (((hit.collider.tag == "panel1") || (hit.collider.tag == "panel2")) && (hit.distance < currentDistance))
                 {
-                    hit.collider.gameObject.GetComponent<DoorControl>().ToggleDoor(0);
+                    DoorControl DC = hit.collider.gameObject.GetComponent<DoorControl>();
+                    // If the DoorControl script isn't found with the mesh, try the parent
+                    if (DC == null) DC = hit.collider.transform.parent.GetComponent<DoorControl>();
+
+                    if (DC) DC.ToggleDoor();
+                    else print("WARNING: Door/Panel does not have a findable DoorControl script");
+
                 }
 
                

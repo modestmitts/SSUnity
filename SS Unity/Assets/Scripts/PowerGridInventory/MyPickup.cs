@@ -33,7 +33,6 @@ public class MyPickup : MonoBehaviour
 
     public void RaycastPickup()
     {
-        print("Raycast Pickup used!");
         if (pd == null) // 
         { 
            if (DefaultInventory != null && Item != null)

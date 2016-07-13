@@ -3,14 +3,15 @@ using System.Collections;
 
 public class StampTrigger : MonoBehaviour 
 {
-    public GameObject ShipInterface;
     public float Delay = 0.25f;
     private GameObject AccessIcon;
     private Transform PlayerTrans;
     public bool PlayerClose;
     public bool LoggedIn;
+
+    public GameObject shipInterface;
     public ShipData ShuttleInfo;
-     
+
 
     void Start()
     {
@@ -18,6 +19,9 @@ public class StampTrigger : MonoBehaviour
         AccessIcon.SetActive(false);
         PlayerClose = false;
         LoggedIn = false;
+        Canvas canvas = FindObjectOfType<Canvas>();
+        shipInterface = canvas.transform.Find("Ship Interface").gameObject;
+        if (shipInterface == null) print("Couldn't find Ship Interface");
     }
 
     void OnTriggerEnter(Collider other)
@@ -73,8 +77,8 @@ public class StampTrigger : MonoBehaviour
     // It activates the Ship Interface and calls the Icon Ping function (
     public void OpenInterface()
     {
-        ShipInterface.SetActive(true);
-        ShipInterface.GetComponent<ShipInterfaceControl>().IconPing(ShuttleInfo, this.gameObject);
+        shipInterface.SetActive(true);
+        shipInterface.GetComponent<ShipInterfaceControl>().IconPing(ShuttleInfo, this.gameObject);
         AccessIcon.SetActive(false);
     }
 

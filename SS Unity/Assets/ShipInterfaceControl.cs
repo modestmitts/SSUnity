@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ShipInterfaceControl : MonoBehaviour 
 {
@@ -22,6 +24,9 @@ public class ShipInterfaceControl : MonoBehaviour
     private ShipData SD; // Ship Data you've logged into
     public Sprite spt;
 
+    // GUI Prefabs
+    public GameObject DoorControlPanel;
+
     public enum DataState {NoShip, Public, LogOutCheck, Security, DataTabs};
     private bool dataFilled;  // Have the Datatabs been filled with relevant data?
     public DataState DState;
@@ -31,11 +36,16 @@ public class ShipInterfaceControl : MonoBehaviour
     private StampTrigger QSTrigger;
 
     private GameObject ShipLOIndicator;
+    private GameObject content; /// Temp the Gameobject Doors are displayed under
 
     void Start()
     {
         DState = DataState.NoShip;
         dataFilled = false;
+
+        content = this.transform.Find("Data Tabs/Airlocks and Doors Tab/Info/DoorListPanel/Scroll View/Viewport/Content").gameObject;
+
+        if (content == null) print("Couldn't find the content Gameobject");
     }
 
     // THis function displays the Public Page, and then calls the Icon Ping on GUIcontrol to halt player movement
@@ -47,7 +57,6 @@ public class ShipInterfaceControl : MonoBehaviour
         newState = DataState.Public; //Open the ship's Public Page
         this.GetComponentInParent<GUIControl>().GUICon(true); // Turn off player movement
 
-        print("Shutting off the Access Icon");
         QSTrigger.GetComponent<StampTrigger>().LogIn();
     }
 
@@ -68,9 +77,9 @@ public class ShipInterfaceControl : MonoBehaviour
 
     public void LogOut()
     {
-
         LoggedIn = false;
         STrigger.LogOut();
+        DestroyShipData();
         
         ShipLOIndicator.SetActive(false);
         
@@ -81,7 +90,6 @@ public class ShipInterfaceControl : MonoBehaviour
 
     public void LogIn()
     {
-        print("Login SIC");
         // If you are logged into a ship, then this will open the "Check Logout" dialogue
         // If you check YES, then it will run Logout, and then Login to the Security
         // If you check No, then it should go back to the public page
@@ -249,8 +257,66 @@ public class ShipInterfaceControl : MonoBehaviour
 
     private void PushShipData()
     {
-        PublicPage.transform.Find("Ship Title").gameObject.GetComponent<Text>().text = SD.shipTitle;
-        PublicPage.transform.Find("Ship Owner Icon").gameObject.GetComponent<Image>().sprite = SD.shipIcon;
-        PublicPage.transform.Find("Ship ID").gameObject.GetComponent<Text>().text = SD.shipID;
+          //Set up Tab Data here 
+        /*
+         For each door or hatch found I want to generate a Door control indicator
+         * This will be a prefab object that will be filled with data from each door/hatch.
+         */
+        FillDoorData();       
+
     }
+
+    void FillDoorData()
+    { 
+        //Get Scrollview Content for the parent
+        foreach (GameObject panel in SD.panelList)
+        {
+            GameObject DIP = (GameObject)Instantiate(DoorControlPanel);
+            DoorControl DC = panel.GetComponent<DoorControl>();
+            
+            GameObject go = DIP.transform.Find("Door Name").gameObject;
+            go.GetComponent<Text>().text = DC.doorName;
+
+            go = DIP.transform.Find("Lock Unlock").gameObject;
+            Toggle tgl = go.GetComponent<Toggle>();
+
+            tgl.isOn = DC.isLocked;
+            
+            DC.LockUnlock = tgl;
+
+            // Get EventTrigger link og this toggle to the DoorControl ToggleLock()
+
+            tgl.onValueChanged.AddListener(delegate { DC.ToggleLock(); });
+
+
+            go = DIP.transform.Find("Open Close").gameObject;
+            tgl = go.GetComponent<Toggle>();
+            go.GetComponent<Toggle>().isOn = DC.isOpen;
+            DC.OpenClose = tgl;
+
+            //Set the EventTrigger link to the toggle in the DoorControlPanel object to the DoorControl
+            tgl.onValueChanged.AddListener(delegate { DC.ToggleDoor(); });
+
+            DIP.transform.SetParent(content.transform);            
+        }
+    }
+
+    // This is called when you log out of a ship
+    // 
+    void DestroyShipData()
+    {
+        List <Transform> children = new List<Transform>(); 
+        foreach (Transform t in content.transform)
+        {
+            children.Add(t);
+        }
+
+        children.ForEach(child => Destroy(child.gameObject));        
+    }
+
+    public void LockAll(bool lockit)
+    {
+        SD.LockUnlockAll(lockit);    
+    }
+
 }

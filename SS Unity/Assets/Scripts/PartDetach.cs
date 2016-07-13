@@ -33,11 +33,16 @@ public class PartDetach : MonoBehaviour
         Detached = ls;
 
         if (Detached)
-        {
-            print("Turning on Gravity");
-
+        {            
             rb.useGravity = true;
             rb.constraints = RigidbodyConstraints.None;
+
+            //De-activate the bolt/screw collider so the equipped tool doesn't keep beating on the fallen part
+            foreach (GameObject bolt in attachList)
+            {
+                SphereCollider SC = bolt.GetComponent<SphereCollider>();
+                SC.enabled = false;
+            }
         }
     }
 

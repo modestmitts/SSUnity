@@ -30,14 +30,21 @@ public class ShipData : MonoBehaviour
 
         foreach (Transform child in Rent)
         {
-            print("Child name: " + child.gameObject.name);
-            if (child.tag == "panel1")
+            if ((child.tag == "panel1") && (child.GetComponent<DoorControl>() != null))
             {
-                panelList.Add(child.gameObject);
+                 panelList.Add(child.gameObject);                
             }
         }
     }
 
-
+    //Lock = true
+    public void LockUnlockAll(bool LU)
+    {        
+        foreach (GameObject door in panelList)
+        {
+            DoorControl DC = door.GetComponent<DoorControl>();
+            if (DC.isLocked != LU) DC.ToggleLock(); 
+        }
+    }
 }
 
